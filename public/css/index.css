@@ -1,0 +1,76 @@
+ body{
+    margin: 0;
+    padding: 0;
+}
+
+#registroContainer {
+    display:flex;
+    flex-direction:column;
+    width:30em;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+#registroContainer *{
+    width: 100%;
+    margin: 5px 16px 5px 16px
+}
+
+#matricularBtn {
+    background-color: rgb(34, 126, 34);
+    color:white;
+}
+
+
+
+#title {
+    font-size: 3em;
+    color:rgb(7, 7, 7); 
+    text-align: center;   
+}
+
+#seccion1 {
+    
+    font-size: 1em;
+    color:white; 
+    flex-direction: row;
+    text-align:center;
+    margin-left: 15em;
+    margin-top: 2em;
+    background-color: rgb(67, 178, 221);
+    padding:0em;
+    width:9em;
+
+}
+
+#seccion2 {
+    
+    font-size: 1em;
+    color:white; 
+    flex-direction: row;
+    text-align:center;
+    justify-content: center;
+    margin-left: 45em;
+    margin-top: 1em;
+    background-color: rgb(67, 178, 221);
+    padding:0em;
+    width:9em;
+
+}
+
+#seccion3 {
+    
+    font-size: 1em;
+    color:white; 
+    flex-direction: row;
+    text-align:center;
+    margin-left: 75em;
+    margin-top: 2em;
+    background-color: rgb(67, 178, 221);
+    padding:0em;
+    width:9em;
+
+}
+
